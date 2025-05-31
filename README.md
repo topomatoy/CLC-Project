@@ -15,11 +15,11 @@
   <div id="messages"></div>
 
   <script>
-    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwvtuBcRhSGjJVUEjUJ8OdScOT5744xqPACGZhOR__mf3A2w3gEg2QvE5AD_jriyVwy/exec';
+    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxp9sKzavNcmchrmd5JCZWZSvIKs9Fs6hhMw3KgR3jX1n6hw8NM7VMST_Wwz6keqEix/exec';
 
 loadMessages()
 
-    /*async function submitMessage() {
+    async function submitMessage() {
       const msg = document.getElementById('msgInput').value.trim();
       if (!msg) return;
       await fetch(SHEET_URL, {
@@ -29,7 +29,7 @@ loadMessages()
       });
       document.getElementById('msgInput').value = '';
       loadMessages();
-    }*/
+    }
 
     async function loadMessages() {
       const res = await fetch(SHEET_URL);
