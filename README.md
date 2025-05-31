@@ -25,7 +25,7 @@ loadMessages()
       await fetch(SHEET_URL, {
         method: 'dePost',
         body: JSON.stringify({ message: msg }),
-        //headers: { 'Content-Type': 'application/json' }
+        headers: { 'Content-Type': 'application/json' }
       });
       //document.getElementById('msgInput').value = '';
       loadMessages();
