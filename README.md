@@ -15,7 +15,7 @@
   <div id="messages"></div>
 
   <script>
-    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxg0vTlJ9bzuxQ8_LbKU0F7tNC8UAg2EgFXcnldJdPd-oe1aZA1C69FxkO2JaoduuhU/exec';
+    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbzQrT2XK2Ajiwc_mOdULoprlWLQqL5EVYiSWpLcm7c/dev';
 
 loadMessages()
 
