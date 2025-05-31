@@ -23,7 +23,7 @@ loadMessages()
       const msg = document.getElementById('msgInput').value.trim();
       if (!msg) {return;}
       await fetch(SHEET_URL, {
-        method: 'POST',
+        method: 'dePost',
         body: JSON.stringify({ message: msg }),
         headers: { 'Content-Type': 'application/json' }
       });
