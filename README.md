@@ -21,7 +21,7 @@ loadMessages()
 
     async function submitMessage() {
       const msg = document.getElementById('msgInput').value.trim();
-      if (!msg) return;
+      if (!msg) {return;}
       await fetch(SHEET_URL, {
         method: 'POST',
         body: JSON.stringify({ message: msg }),
