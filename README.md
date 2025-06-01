@@ -17,7 +17,7 @@
   <script>
     const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxSigcYK7wdPbtCP7KqcYbEcAHbEBgU09XCqfAyN_cjBVmGSLPzudJ1CaMtSG-mJUvF/exec';
 
-    /*async function submitMessage() {
+    async function submitMessage() {
       const msg = document.getElementById('msgInput').value.trim();
       if (!msg) {return;}
       await fetch(SHEET_URL, {
@@ -27,7 +27,7 @@
       });
       //document.getElementById('msgInput').value = '';
       loadMessages();
-    }*/
+    }
 
     async function loadMessages() {
       const res = await fetch(SHEET_URL);
