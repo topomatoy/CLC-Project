@@ -19,7 +19,7 @@
 
 loadMessages()
 
-    async function submitMessage() {
+    /*async function submitMessage() {
       const msg = document.getElementById('msgInput').value.trim();
       if (!msg) {return;}
       await fetch(SHEET_URL, {
@@ -29,7 +29,7 @@ loadMessages()
       });
       //document.getElementById('msgInput').value = '';
       loadMessages();
-    }
+    }*/
 
     async function loadMessages() {
       const res = await fetch(SHEET_URL);
