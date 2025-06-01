@@ -9,7 +9,7 @@
 <body>
 
   <h1>🎓 Graduation Wall</h1>
-  <textarea id="msgInput" placeholder="Please Email the message to '2550539@edu.burnabyschools.ca' to be put on here" rows="4" style="width:100%"></textarea><br>
+  <textarea id="msgInput" placeholder="Please Email the message to 'emailGemail.ca' to be put on here" rows="4" style="width:100%"></textarea><br>
   <button onclick="submitMessage()">Online Submission is Still Under Construction, will be here later</button>
 
   <div id="messages"></div>
