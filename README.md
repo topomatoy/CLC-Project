@@ -28,7 +28,7 @@
       //document.getElementById('msgInput').value = '';
       loadMessages();
     }
-
+ 
     async function loadMessages() {
       const res = await fetch(SHEET_URL);
       const data = await res.json();
