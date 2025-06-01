@@ -17,8 +17,6 @@
   <script>
     const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxSigcYK7wdPbtCP7KqcYbEcAHbEBgU09XCqfAyN_cjBVmGSLPzudJ1CaMtSG-mJUvF/exec';
 
-loadMessages()
-
     /*async function submitMessage() {
       const msg = document.getElementById('msgInput').value.trim();
       if (!msg) {return;}
