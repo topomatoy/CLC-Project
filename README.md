@@ -25,7 +25,7 @@
         body: JSON.stringify({ message: msg }),
         headers: { 'Content-Type': 'application/json' }
       });
-      //document.getElementById('msgInput').value = '';
+      document.getElementById('msgInput').value = '';
       loadMessages();
     }
  
