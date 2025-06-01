@@ -10,7 +10,7 @@
 
   <h1>🎓 Graduation Wall</h1>
   <textarea id="msgInput" placeholder="Write your message here..." rows="4" style="width:100%"></textarea><br>
-  <button onclick="submitMessage()">Submit</button>
+  <button onclick="submitMessage()">Still Under Construction, will be here later</button>
 
   <div id="messages"></div>
 
